@@ -14,7 +14,10 @@
         android:layout_marginRight="19.3dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="9dp"
-        android:padding="19.2dp">
+        android:padding="19.2dp"
+
+        android:onClick="NavigateToRent"
+        >
 
 
         <LinearLayout
@@ -42,7 +45,7 @@
                     android:id="@+id/icon"
                     android:layout_width="19dp"
                     android:layout_height="19dp"
-                    android:src="@drawable/ic_btc"/>
+                    android:src="@drawable/ic_house"/>
 
 
                 <customfonts.TextViewSFProDisplayRegular

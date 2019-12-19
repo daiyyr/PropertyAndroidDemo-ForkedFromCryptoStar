@@ -34,7 +34,7 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
 
 
     private String title[] = {"Rent","Electricity","Broadband","Insurance"};
-    private Integer icon[]={ R.drawable.ic_btc,R.drawable.ic_etherium,R.drawable.ic_ripple,R.drawable.ic_litecoin};
+    private Integer icon[]={ R.drawable.ic_house,R.drawable.ic_flash,R.drawable.ic_wifi,R.drawable.ic_protection};
     private String icon_type[] = {"Real Estate Agent","Sorted Services","Sorted Services","Coming soon ..."};
     private String percentage[] = {"","","",""};
     private Integer arrow[] = {R.drawable.ic_arrowup,R.drawable.ic_arrowup,R.drawable.ic_arrowdown,R.drawable.ic_arrowdown};
@@ -197,4 +197,12 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
         }
 
     }
+
+
+    public void NavigateToRent(View v) {
+        Intent intent = new Intent(this, RentActivity.class);
+        startActivity(intent);
+    }
+
+
 }

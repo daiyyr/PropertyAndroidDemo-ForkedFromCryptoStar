@@ -17,6 +17,7 @@ import ModelClass.WalletModelClass;
 import ws.wolfsoft.cryptostar.CreatePinAcitivyt;
 import ws.wolfsoft.cryptostar.LoginActivity;
 import ws.wolfsoft.cryptostar.R;
+import ws.wolfsoft.cryptostar.RentActivity;
 import ws.wolfsoft.cryptostar.SignupActivity;
 import ws.wolfsoft.cryptostar.SplashScreenActivity;
 import ws.wolfsoft.cryptostar.TradeCryptoStarActivity;
@@ -93,6 +94,10 @@ public class WalletRecycleAdapter extends RecyclerView.Adapter<WalletRecycleAdap
         return OfferList.size();
 
     }
+
+
+
+
 
 }
 

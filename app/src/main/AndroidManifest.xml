@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".RentActivity"
+            android:label="@string/title_activity_rent"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".WSSplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +28,7 @@
         <activity android:name=".TradeCryptoStarActivity" />
         <activity android:name=".WalletCryptoStarActivity" />
         <activity android:name=".AlertCryptoStarActivity" />
-        <activity android:name=".ChartCryptoStarActivity"></activity>
+        <activity android:name=".ChartCryptoStarActivity" />
     </application>
 
 </manifest>
