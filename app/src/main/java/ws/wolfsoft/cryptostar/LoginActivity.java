@@ -18,6 +18,11 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void NavigateToRegister(View v) {
+        Intent intent = new Intent(this, SignupActivity.class);
+        startActivity(intent);
+    }
+
 //    OnClickListener onClickListener = new OnClickListener() {
 //        @Override
 //        public void onClick(View v) {

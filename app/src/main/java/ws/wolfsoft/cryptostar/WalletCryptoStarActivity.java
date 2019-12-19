@@ -1,5 +1,6 @@
 package ws.wolfsoft.cryptostar;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,13 +33,13 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
     private WalletRecycleAdapter bAdapter;
 
 
-    private String title[] = {"Bitcoin","Ethereum","Ripple","LiteCoin","Bitcoin"};
-    private Integer icon[]={ R.drawable.ic_btc,R.drawable.ic_etherium,R.drawable.ic_ripple,R.drawable.ic_litecoin,R.drawable.ic_btc};
-    private String icon_type[] = {"BTC","ETH","XRP","LTC","BTC"};
-    private String percentage[] = {"20%","5%","5%","18%","25%"};
-    private Integer arrow[] = {R.drawable.ic_arrowup,R.drawable.ic_arrowup,R.drawable.ic_arrowdown,R.drawable.ic_arrowdown,R.drawable.ic_arrowup};
-    private String price[] = {"$5,291.20","$2,213.04","$4,831.69","$2,529.21","$5,291.20"};
-    private String value[] = {"0.592 BTC","2.624 ETH","2.624 XRP","2.624 XRP","0.592 BTC"};
+    private String title[] = {"Rent","Electricity","Broadband","Insurance"};
+    private Integer icon[]={ R.drawable.ic_btc,R.drawable.ic_etherium,R.drawable.ic_ripple,R.drawable.ic_litecoin};
+    private String icon_type[] = {"Real Estate Agent","Sorted Services","Sorted Services","Coming soon ..."};
+    private String percentage[] = {"","","",""};
+    private Integer arrow[] = {R.drawable.ic_arrowup,R.drawable.ic_arrowup,R.drawable.ic_arrowdown,R.drawable.ic_arrowdown};
+    private String price[] = {"$450","$80","$60",""};
+    private String value[] = {"","","",""};
 
 
 
@@ -93,6 +94,9 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
         linear3.setOnClickListener(this);
         linear4.setOnClickListener(this);
         linear5.setOnClickListener(this);
+
+        linear5.setVisibility(View.GONE);
+
     }
 
     @Override
@@ -133,6 +137,8 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent2 = new Intent(this,ChartCryptoStarActivity.class);
+                startActivity(intent2);
 
                 break;
 
@@ -151,6 +157,9 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent3 = new Intent(this,TradeCryptoStarActivity.class);
+                startActivity(intent3);
+
                 break;
 
             case R.id.linear4:
@@ -168,6 +177,9 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
                 trading_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 alert_txt.setTextColor(Color.parseColor("#141a22"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
+
+                Intent intent4 = new Intent(this,AlertCryptoStarActivity.class);
+                startActivity(intent4);
 
                 break;
 

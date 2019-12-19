@@ -19,8 +19,8 @@ public class WSSplashScreenActivity extends AppCompatActivity {
                     // Thread will sleep for 5 seconds
                     sleep(1);
 
-                    Intent intent = new Intent(WSSplashScreenActivity.this,CryptoListActivity.class);
-                    //Intent intent = new Intent(WSSplashScreenActivity.this,LoginActivity.class);
+                    //Intent intent = new Intent(WSSplashScreenActivity.this,CryptoListActivity.class);
+                    Intent intent = new Intent(WSSplashScreenActivity.this,LoginActivity.class);
 
 
                     startActivity(intent);

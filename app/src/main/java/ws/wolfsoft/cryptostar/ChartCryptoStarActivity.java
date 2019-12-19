@@ -1,5 +1,6 @@
 package ws.wolfsoft.cryptostar;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -73,6 +74,7 @@ public class ChartCryptoStarActivity extends AppCompatActivity implements View.O
         generateTempoData();
         generateTempoData1();
 
+        linear5.setVisibility(View.GONE);
 
     }
 
@@ -347,6 +349,9 @@ public class ChartCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent = new Intent(this,WalletCryptoStarActivity.class);
+                startActivity(intent);
+
                 break;
 
 
@@ -365,7 +370,6 @@ public class ChartCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
-
                 break;
 
             case R.id.linear3:
@@ -383,6 +387,8 @@ public class ChartCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent3 = new Intent(this,TradeCryptoStarActivity.class);
+                startActivity(intent3);
                 break;
 
             case R.id.linear4:
@@ -401,6 +407,8 @@ public class ChartCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#141a22"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent4 = new Intent(this,AlertCryptoStarActivity.class);
+                startActivity(intent4);
                 break;
 
 

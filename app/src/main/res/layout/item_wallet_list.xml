@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/txt_color"
-                android:textSize="17.3sp"
+                android:textSize="22.3sp"
                 android:text="Bitcoin"/>
 
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:text="BTC"
                     android:layout_marginLeft="5dp"
-                    android:textSize="10sp"
+                    android:textSize="16sp"
                     android:textColor="#6e7f8d"
                     android:layout_gravity="center"/>
             </LinearLayout>

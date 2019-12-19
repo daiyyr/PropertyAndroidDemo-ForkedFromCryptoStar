@@ -1,5 +1,6 @@
 package ws.wolfsoft.cryptostar;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.design.widget.TabLayout;
@@ -91,6 +92,8 @@ public class AlertCryptoStarActivity extends AppCompatActivity implements View.O
         linear3.setOnClickListener(this);
         linear4.setOnClickListener(this);
         linear5.setOnClickListener(this);
+
+        linear5.setVisibility(View.GONE);
     }
 
     @Override
@@ -113,6 +116,8 @@ public class AlertCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent = new Intent(this,WalletCryptoStarActivity.class);
+                startActivity(intent);
                 break;
 
 
@@ -131,7 +136,8 @@ public class AlertCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
-
+                Intent intent2 = new Intent(this,ChartCryptoStarActivity.class);
+                startActivity(intent2);
                 break;
 
             case R.id.linear3:
@@ -149,6 +155,8 @@ public class AlertCryptoStarActivity extends AppCompatActivity implements View.O
                 alert_txt.setTextColor(Color.parseColor("#a6b0b9"));
                 setting_txt.setTextColor(Color.parseColor("#a6b0b9"));
 
+                Intent intent3 = new Intent(this,TradeCryptoStarActivity.class);
+                startActivity(intent3);
                 break;
 
             case R.id.linear4:

@@ -48,7 +48,7 @@ public class WalletRecycleAdapter extends RecyclerView.Adapter<WalletRecycleAdap
             icon = (ImageView) view.findViewById(R.id.icon);
             arrow = (ImageView) view.findViewById(R.id.arrow);
 
-
+            arrow.setVisibility(View.INVISIBLE);
 
         }
 
