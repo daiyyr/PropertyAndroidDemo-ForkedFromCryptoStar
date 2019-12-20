@@ -205,4 +205,14 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
     }
 
 
+    public View.OnClickListener mCorkyListener = new View.OnClickListener() {
+        public void onClick(View v) {
+            int n = v.getId();
+            Intent intent = new Intent(WalletCryptoStarActivity.this, RentActivity.class);
+            startActivity(intent);
+        }
+    };
+
+
+
 }

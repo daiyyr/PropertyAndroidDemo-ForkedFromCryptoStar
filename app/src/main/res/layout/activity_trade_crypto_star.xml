@@ -30,7 +30,7 @@
         <customfonts.TextViewSFProDisplayRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Trade Crypto"
+            android:text="Make a payment"
             android:textSize="17.3sp"
             android:textColor="@color/txt_color"/>
 
@@ -54,7 +54,7 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Select Wallet"
+                android:text="Select Account"
                 android:textSize="17.3sp"
                 android:textColor="#6e7f8d"/>
 
@@ -67,8 +67,7 @@
                 <customfonts.TextViewSFProDisplayRegular
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bitcoin"
-                    android:gravity="right"
+                    android:text="Nova"
                     android:textSize="17.3sp"
                     android:textColor="#006dff"/>
 
@@ -76,7 +75,7 @@
                 <customfonts.TextViewSFProDisplayRegular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$1,214.02"
+                    android:text="$219.21"
                     android:textSize="17.3sp"
                     android:textColor="#141a22"/>
             </LinearLayout>
@@ -132,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="10sp"
-                android:text="BITCOIN ADDRESS"
+                android:text="Account Number"
                 android:layout_marginTop="28.7dp"
                 android:textColor="@color/light_gray"/>
 
@@ -141,7 +140,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
-                android:hint="309284123122387213291"
+                android:hint="00-0000-00000000-00"
                 android:textColor="@color/txt_color"
                 android:layout_marginTop="8dp"
                 android:textSize="17.3sp"
@@ -172,7 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10sp"
-                        android:text="BTC"
+                        android:text="Date"
                         android:layout_marginTop="28.7dp"
                         android:textColor="@color/light_gray"/>
 
@@ -181,7 +180,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#00000000"
-                        android:hint="0.5241"
+                        android:hint="Today"
                         android:textColor="@color/txt_color"
                         android:layout_marginTop="8dp"
                         android:textSize="17.3sp"
@@ -209,7 +208,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="10sp"
-                        android:text="USD"
+                        android:text="NZD"
                         android:layout_marginTop="28.7dp"
                         android:textColor="@color/light_gray"/>
 
@@ -218,7 +217,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#00000000"
-                        android:hint="$1219.21"
+                        android:hint="$219.21"
                         android:textColor="@color/txt_color"
                         android:layout_marginTop="8dp"
                         android:textSize="17.3sp"
@@ -241,7 +240,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="10sp"
-                android:text="Estimated BTC Fee:"
+                android:text="Statement details:"
                 android:layout_marginTop="28.7dp"
                 android:textColor="@color/light_gray"/>
 
@@ -250,7 +249,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
-                android:hint="0.00024 BTC ($92.45)"
+                android:hint="Electricity June 2019"
                 android:textColor="@color/txt_color"
                 android:layout_marginTop="8dp"
                 android:textSize="17.3sp"
@@ -279,7 +278,7 @@
             android:layout_marginRight="19.3dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Send Money"/>
+            android:text="MAKE PAYMENT"/>
     </LinearLayout>
 
     </ScrollView>
@@ -364,7 +363,7 @@
                 android:id="@+id/trading_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wallet"
+                android:text="Pay"
                 android:layout_marginTop="4dp"
                 android:textColor="@color/txt_color"
                 android:textSize="10sp"/>

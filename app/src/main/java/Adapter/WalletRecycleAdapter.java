@@ -21,6 +21,7 @@ import ws.wolfsoft.cryptostar.RentActivity;
 import ws.wolfsoft.cryptostar.SignupActivity;
 import ws.wolfsoft.cryptostar.SplashScreenActivity;
 import ws.wolfsoft.cryptostar.TradeCryptoStarActivity;
+import ws.wolfsoft.cryptostar.WalletCryptoStarActivity;
 
 
 public class WalletRecycleAdapter extends RecyclerView.Adapter<WalletRecycleAdapter.MyViewHolder> {
@@ -83,11 +84,19 @@ public class WalletRecycleAdapter extends RecyclerView.Adapter<WalletRecycleAdap
         holder.price.setText(lists.getPrice());
         holder.value.setText(lists.getValue());
 
-
+        holder.itemView.setOnClickListener(
+                mCorkyListener
+        );
 
 
     }
-
+    private View.OnClickListener mCorkyListener = new View.OnClickListener() {
+        public void onClick(View v) {
+            int n = v.getId();
+            //Intent intent = new Intent(WalletCryptoStarActivity.this, RentActivity.class);
+            //startActivity(intent);
+        }
+    };
 
     @Override
     public int getItemCount() {
