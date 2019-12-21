@@ -52,6 +52,9 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
 
 
         recyclerView = findViewById(R.id.recyclerView);
+
+        //recyclerView.setVisibility(View.GONE);
+
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(WalletCryptoStarActivity.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());

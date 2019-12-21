@@ -31,8 +31,11 @@ public class AlertCryptoStarActivity extends AppCompatActivity implements View.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert_crypto_star);
 
-
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+
+        tabLayout.setVisibility(View.GONE);
+        ViewPager viewPager11 = (ViewPager) findViewById(R.id.pager);
+        viewPager11.setVisibility(View.GONE);
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
