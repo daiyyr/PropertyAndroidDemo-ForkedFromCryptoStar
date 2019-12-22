@@ -133,7 +133,7 @@
             <customfonts.TextViewSFProDisplayRegular
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Created 20 Days Ago"
+                android:text="Activated 20 Days Ago"
                 android:textSize="12.5sp"
                 android:textColor="@color/light_gray"
                 android:layout_marginTop="8dp"/>
@@ -179,7 +179,7 @@
             <customfonts.TextViewSFProDisplayRegular
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Created 12 Days Ago"
+                android:text="Activated 12 Days Ago"
                 android:textSize="12.5sp"
                 android:textColor="@color/light_gray"
                 android:layout_marginTop="8dp"/>

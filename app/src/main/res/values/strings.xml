@@ -2,4 +2,6 @@
     <string name="app_name">CryptoStar</string>
     <string name="store_watch_trade_crypto_currencies">Store. Watch &amp; Trade Crypto Currencies></string>
     <string name="title_activity_rent">RentActivity</string>
+    <string name="title_activity_electricity">activity_electricity</string>
+    <string name="title_activity_broadband">BroadbandActivity</string>
 </resources>

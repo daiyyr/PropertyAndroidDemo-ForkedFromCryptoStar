@@ -10,6 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e68e1159-f06d-452b-934e-0d37ff876262" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/BroadbandActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/ElectricityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_broadband.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/electricity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -18,11 +22,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_crypto_star.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_crypto_star.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,86 +75,86 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_crypto_star.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="101" column="41" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="41" />
+            <state relative-caret-position="125">
+              <caret line="436" selection-start-line="436" selection-end-line="436" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="215" column="58" selection-start-line="215" selection-start-column="58" selection-end-line="215" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onClick#0;class#WalletCryptoStarActivity#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/ElectricityActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="46" column="26" selection-end-line="201" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/electricity.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="198" column="15" selection-start-line="1" selection-end-line="198" selection-end-column="15" />
+            <state relative-caret-position="37">
+              <caret line="48" selection-start-line="48" selection-end-line="65" />
               <folding>
-                <element signature="e#39#6448#0" />
+                <element signature="e#3750#5225#0" />
+                <element signature="e#5244#6857#0" />
+                <element signature="e#6821#7856#0" />
+                <element signature="e#9335#9739#0" />
+                <element signature="e#9791#10096#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/BroadbandActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_broadband.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="130">
+              <caret line="214" column="53" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onClick#0;class#WalletCryptoStarActivity#0" />
-                <element signature="e#7798#8037#0" expanded="true" />
-                <element signature="e#8036#8037#0" expanded="true" />
+                <element signature="e#4798#6397#0" />
+                <element signature="e#9228#9533#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/Adapter/WalletRecycleAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_trade_crypto_star.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="932" column="68" selection-start-line="932" selection-start-column="60" selection-end-line="932" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rent.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wssplash_screen.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -155,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/RentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="212">
+              <caret line="38" column="34" selection-end-line="198" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,14 +175,10 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+            <state relative-caret-position="416">
+              <caret line="293" column="23" selection-start-line="67" selection-end-line="294" />
               <folding>
-                <element signature="e#2491#5532#0" />
-                <element signature="e#4095#5510#0" />
-                <element signature="e#8084#9476#0" />
-                <element signature="e#8321#8651#0" />
-                <element signature="e#9069#10066#0" />
+                <element signature="e#2131#10043#0" />
               </folding>
             </state>
           </provider>
@@ -194,36 +197,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1010</find>
-      <find>home</find>
-      <find>imageview</find>
-      <find>bitcoin is a</find>
-      <find>bitcoin is be</find>
-      <find>21.67</find>
-      <find>ser</find>
-      <find>5,2</find>
-      <find>btc</find>
-      <find>click</find>
-      <find>text=&quot;Wallet&quot;</find>
-      <find>trade crypto</find>
-      <find>Btc</find>
-      <find>214</find>
-      <find>21</find>
-      <find>elec</find>
-      <find>electr</find>
-      <find>bottomtab</find>
-      <find>getSupportFragmentManager</find>
-      <find>pager</find>
-      <find>fragment</find>
-      <find>property</find>
-      <find>email</find>
       <find>support@uxtrata.com</find>
       <find>support@</find>
       <find>notifi</find>
-      <find>tab_layout</find>
       <find>support</find>
-      <find>title</find>
       <find>recyclerView</find>
+      <find>title</find>
+      <find>id=</find>
+      <find>flash</find>
+      <find>ima</find>
+      <find>coming</find>
+      <find>onclick</find>
+      <find>NavigateToRent</find>
+      <find>navi</find>
+      <find>tab_layout</find>
+      <find>activity_ele</find>
+      <find>electricity</find>
+      <find>pager</find>
+      <find>90</find>
+      <find>suppo</find>
+      <find>enjo</find>
+      <find>enj</find>
+      <find>rent</find>
+      <find>navig</find>
+      <find>elec</find>
+      <find>voda</find>
+      <find>plus</find>
+      <find>nova</find>
+      <find>MAINT</find>
+      <find>user@</find>
+      <find>phone</find>
     </findStrings>
     <replaceStrings>
       <replace>10dp</replace>
@@ -231,6 +234,9 @@
       <replace>70dp</replace>
       <replace>text=&quot;Pay&quot;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Teemo\AndroidStudioProjects\CryptoStar\app\src\main\res\layout</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -238,15 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/edit_txt_rect.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_deleteimg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_wallet_2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_wallet_gray.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/white_rect.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_down_arrow1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/customfonts/EditText_SF_Pro_Display_Regular.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/blue_rect.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrowup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ModelClass/WalletModelClass.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_etherium.xml" />
@@ -281,14 +278,23 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_wifi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/RentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rent.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chart_crypto_star.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/Adapter/WalletRecycleAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_trade_crypto_star.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/d.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/ElectricityActiviry.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/electricity_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_electricity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/ElectricityActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/BroadbandActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_crypto_star.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/electricity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_broadband.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chart_crypto_star.xml" />
       </list>
     </option>
   </component>
@@ -302,8 +308,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,7 +383,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,9 +744,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22550336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -750,7 +755,7 @@
       <window_info id="Captures" order="7" side_tool="true" weight="0.25" />
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.16713881" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1529745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -763,7 +768,7 @@
       <window_info anchor="bottom" id="Logcat" order="11" weight="0.30878186" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32919955" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.22237961" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.22237961" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,16 +783,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Extra/ILineDataSet.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Extra/LineData.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Extra/BarLineScatterCandleBubbleDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Extra/LineChart.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/data/ScatterData.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/renderer/LineRadarRenderer.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/data/BarDataSet.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/charts/BarChart.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/data/CandleDataSet.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/components/LegendEntry.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/utils/Transformer.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/data/ScatterDataSet.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/charting/charts/HorizontalBarChart.java" />
@@ -824,23 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3473">
           <caret line="157" column="20" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wssplash_screen.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -900,10 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_crypto_list.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -923,14 +897,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_interior_background.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_wallet_list.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ModelClass/WalletModelClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -965,14 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rent.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/FragmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -984,17 +942,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="932" column="68" selection-start-line="932" selection-start-column="60" selection-end-line="932" selection-end-column="68" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_crypto_list.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_wallet_list.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="22">
+          <caret line="1" column="10" selection-start-line="1" selection-end-line="119" selection-end-column="15" />
+          <folding>
+            <element signature="e#39#4285#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,27 +968,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/RentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/AlertCryptoStarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="550">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19052">
+          <caret line="932" column="68" selection-start-line="932" selection-start-column="60" selection-end-line="932" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rent.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="39" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_electricity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/electricity_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_activity_electricity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/activity_electricity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_electricity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alert_crypto_star.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+        <state relative-caret-position="416">
+          <caret line="293" column="23" selection-start-line="67" selection-end-line="294" />
           <folding>
-            <element signature="e#2491#5532#0" />
-            <element signature="e#4095#5510#0" />
-            <element signature="e#8084#9476#0" />
-            <element signature="e#8321#8651#0" />
-            <element signature="e#9069#10066#0" />
+            <element signature="e#2131#10043#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/RentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="38" column="34" selection-end-line="198" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wssplash_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_broadband.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/ElectricityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" column="26" selection-end-line="201" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1037,20 +1085,55 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_crypto_star.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="101" column="41" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="41" />
+        <state relative-caret-position="125">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/WalletCryptoStarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="332">
+          <caret line="215" column="58" selection-start-line="215" selection-start-column="58" selection-end-line="215" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onClick#0;class#WalletCryptoStarActivity#0" />
-            <element signature="e#7798#8037#0" expanded="true" />
-            <element signature="e#8036#8037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ws/wolfsoft/cryptostar/BroadbandActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/electricity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="48" selection-start-line="48" selection-end-line="65" />
+          <folding>
+            <element signature="e#3750#5225#0" />
+            <element signature="e#5244#6857#0" />
+            <element signature="e#6821#7856#0" />
+            <element signature="e#9335#9739#0" />
+            <element signature="e#9791#10096#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_broadband.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="214" column="53" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
+          <folding>
+            <element signature="e#4798#6397#0" />
+            <element signature="e#9228#9533#0" />
           </folding>
         </state>
       </provider>

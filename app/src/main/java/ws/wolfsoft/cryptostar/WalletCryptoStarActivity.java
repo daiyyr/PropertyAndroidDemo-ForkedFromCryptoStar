@@ -53,7 +53,7 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
 
         recyclerView = findViewById(R.id.recyclerView);
 
-        //recyclerView.setVisibility(View.GONE);
+        recyclerView.setVisibility(View.GONE);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(WalletCryptoStarActivity.this);
         recyclerView.setLayoutManager(layoutManager);
@@ -206,6 +206,18 @@ public class WalletCryptoStarActivity extends AppCompatActivity implements View.
         Intent intent = new Intent(this, RentActivity.class);
         startActivity(intent);
     }
+
+    public void NavigateToElectricity(View v) {
+        Intent intent = new Intent(this, ElectricityActivity.class);
+        startActivity(intent);
+    }
+
+    public void NavigateToBroadband(View v) {
+        Intent intent = new Intent(this, BroadbandActivity.class);
+        startActivity(intent);
+    }
+
+
 
 
     public View.OnClickListener mCorkyListener = new View.OnClickListener() {
